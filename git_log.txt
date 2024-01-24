@@ -1,0 +1,1075 @@
+bd1f164 - bear, 4 weeks ago : feat: auto merge label with custom length
+ 4 files changed, 53 insertions(+), 46 deletions(-)
+
+c5c0dcb - bear, 7 weeks ago : feat : add auto merge label func
+ 2 files changed, 298 insertions(+), 18 deletions(-)
+
+7547838 - bear, 7 weeks ago : refactor:自定义batchsize的大小
+ 4 files changed, 8 insertions(+), 9 deletions(-)
+
+83a6244 - bear, 7 weeks ago : feat:通过点标签计算边的分区情况
+ 2 files changed, 6 insertions(+), 30 deletions(-)
+
+695f90b - bear, 7 weeks ago : feat:采用掩码计算边的存留
+ 1 file changed, 30 insertions(+), 17 deletions(-)
+
+b487419 - bear, 7 weeks ago : refactor:pyg基线测试调整
+ 4 files changed, 27 insertions(+), 66 deletions(-)
+
+1778803 - bear, 7 weeks ago : refactor:删除不必的负值填充，并加入参数存储
+ 3 files changed, 7 insertions(+), 11 deletions(-)
+
+5a94c05 - bear, 7 weeks ago : test:修改更新测试文件
+ 6 files changed, 262 insertions(+), 1073 deletions(-)
+
+b4e6dd1 - bear, 7 weeks ago : Merge branch 'cpumem'
+0d6a94c - bear, 7 weeks ago : feat:参数提交数据集
+ 2 files changed, 8 insertions(+), 2 deletions(-)
+
+8f03ed0 - bear, 7 weeks ago : feat:参数模型存储
+ 1 file changed, 5 insertions(+), 4 deletions(-)
+
+dc27ec9 - bear, 8 weeks ago : info:run PA success
+ 2 files changed, 16 insertions(+), 8 deletions(-)
+
+12c2f46 - bear, 8 weeks ago : feat:增加纯cpu运行模式
+ 2 files changed, 19 insertions(+), 18 deletions(-)
+
+094458a - bear, 8 weeks ago : refactor:合并map表
+ 2 files changed, 31 insertions(+), 32 deletions(-)
+
+8b25134 - bear, 8 weeks ago : feat:新增自定义数据生成,转化数据时内存优化
+ 3 files changed, 37 insertions(+), 16 deletions(-)
+
+e298e7e - bear, 8 weeks ago : 自定义前缀和计算函数
+ 4 files changed, 71 insertions(+), 111 deletions(-)
+
+5f3fb25 - bear, 8 weeks ago : 修改pyg数据集训练
+ 9 files changed, 107 insertions(+), 671 deletions(-)
+
+1a798dd - bear, 8 weeks ago : 前缀和异常缓慢问题修复
+ 8 files changed, 521 insertions(+), 20 deletions(-)
+
+410b489 - bear, 8 weeks ago : 增加测试文件
+ 4 files changed, 275 insertions(+), 86 deletions(-)
+
+96a351d - bear, 8 weeks ago : 裁剪替换策略测试成功，PD0.78
+ 3 files changed, 324 insertions(+), 22 deletions(-)
+
+f117c5e - bear, 8 weeks ago : 修改coo转换bug
+ 2 files changed, 7 insertions(+), 7 deletions(-)
+
+e9b263c - bear, 9 weeks ago : Merge branch 'check'
+86e843f - bear, 9 weeks ago : 修改跳过缓存逻辑，PA准确率0.38
+ 6 files changed, 48 insertions(+), 40 deletions(-)
+
+6915b02 - bear, 9 weeks ago : 抽取计算部分
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+
+e84aeec - bear, 9 weeks ago : 采样json格式读取数据集基础信息
+ 2 files changed, 31 insertions(+), 20 deletions(-)
+
+836e62f - bear, 9 weeks ago : 修改数据验证部分计算方式
+ 5 files changed, 14 insertions(+), 40 deletions(-)
+
+cfc4fa6 - bear, 9 weeks ago : 修复准确率计算方法，PD准确率0.783
+ 1 file changed, 25 insertions(+), 19 deletions(-)
+
+81261f7 - bear, 9 weeks ago : PD无损增量训练，准确率0.776
+ 3 files changed, 43 insertions(+), 27 deletions(-)
+
+8a9fd3a - bear, 9 weeks ago : 调整部分数据生成参数
+ 2 files changed, 137 insertions(+), 30 deletions(-)
+
+a05624b - bear, 9 weeks ago : 修复图数据转换bug，并建立测试文件
+ 5 files changed, 854 insertions(+), 95 deletions(-)
+
+95e8ac3 - bear, 9 weeks ago : FR粗粒度裁剪放入GPU
+ 4 files changed, 118 insertions(+), 91 deletions(-)
+
+bb077da - bear, 9 weeks ago : 大图预处理
+ 5 files changed, 443 insertions(+), 188 deletions(-)
+
+5e65160 - bear, 9 weeks ago : 增量数据加载训练方式
+ 3 files changed, 65 insertions(+), 82 deletions(-)
+
+cd1d6a6 - bear, 9 weeks ago : 修改增量加载与节点重映射方法
+ 2 files changed, 244 insertions(+), 41 deletions(-)
+
+ae77107 - bear, 9 weeks ago : 删除不必要的一些代码
+ 2 files changed, 25 insertions(+), 151 deletions(-)
+
+2872f32 - bear, 9 weeks ago : Merge branch 'fast_process'
+247b573 - bear, 9 weeks ago : 修改潜在的数据对齐问题
+ 3 files changed, 94 insertions(+), 176 deletions(-)
+
+29736dd - bear, 9 weeks ago : save low mem
+ 2 files changed, 106 insertions(+), 54 deletions(-)
+
+dbe5dc9 - bear, 9 weeks ago : 修改COO和CSR的转换bug,acc文件准确率0.39
+ 2 files changed, 33 insertions(+), 31 deletions(-)
+
+ca6d813 - bear, 10 weeks ago : 自定义加载feat位置
+ 2 files changed, 28 insertions(+), 23 deletions(-)
+
+6aa7b77 - bear, 10 weeks ago : Merge branch 'disk_read_test'
+c68d950 - bear, 10 weeks ago : Add memory monitoring function
+ 2 files changed, 21 insertions(+), 17 deletions(-)
+
+683e0d3 - bear, 10 weeks ago : 暂时加入内存检测部分
+ 2 files changed, 8 insertions(+), 27 deletions(-)
+
+0099e1b - bear, 2 months ago : Merge branch 'loss_csr'
+864c130 - bear, 2 months ago : 提前开辟feat空间优化速度
+ 5 files changed, 79 insertions(+), 167 deletions(-)
+
+4adfdab - bear, 2 months ago : loss csr run success
+ 4 files changed, 150 insertions(+), 44 deletions(-)
+
+d769284 - bear, 2 months ago : 更新数据路径，增加PA测试部分
+ 9 files changed, 100 insertions(+), 393 deletions(-)
+
+8c8f3a9 - bear, 2 months ago : loss csr 函数构建
+ 5 files changed, 126 insertions(+), 561 deletions(-)
+
+fb1164a - bear, 2 months ago : fix bug in data trans to GPU
+ 5 files changed, 109 insertions(+), 150 deletions(-)
+
+229631f - bear, 2 months ago : pagerank with bfs
+ 14 files changed, 802 insertions(+), 854 deletions(-)
+
+79d6a8a - bear, 3 months ago : 代码更新
+ 21 files changed, 706 insertions(+), 1551 deletions(-)
+
+ed6aa53 - bear, 3 months ago : A100同步
+ 2 files changed, 7 insertions(+), 9 deletions(-)
+
+ecc6fc0 - bear, 3 months ago : 训练可运行，内存存在问题
+ 5 files changed, 69 insertions(+), 41 deletions(-)
+
+c878792 - bear, 3 months ago : loader函数逻辑重构
+ 4 files changed, 82 insertions(+), 448 deletions(-)
+
+742d8f3 - bear, 3 months ago : 子图分区合并
+ 4 files changed, 138 insertions(+), 261 deletions(-)
+
+c993520 - bear, 3 months ago : 添加源数据集校验
+ 20 files changed, 37 insertions(+), 2087 deletions(-)
+
+eb7556e - bear, 3 months ago : 添加脚本及分区错误检测
+ 4 files changed, 199 insertions(+)
+
+d18ec74 - bear, 3 months ago : 重排完成,准确率通过
+ 8 files changed, 398 insertions(+), 1034 deletions(-)
+
+6c0802c - bear, 3 months ago : 修改孤立点计算
+ 5 files changed, 842 insertions(+), 31 deletions(-)
+
+e10b478 - bear, 3 months ago : 分区划分，存在问题
+ 6 files changed, 474 insertions(+), 238 deletions(-)
+
+2e4f0eb - bear, 3 months ago : 添加分区测试
+ 23 files changed, 380 insertions(+), 2559 deletions(-)
+
+f8062f0 - bear, 3 months ago : 分区重排和baseline设置
+ 12 files changed, 410 insertions(+), 549 deletions(-)
+
+e19d460 - bear, 3 months ago : UK运行成功
+ 4 files changed, 81 insertions(+), 85 deletions(-)
+
+89d7df3 - bear, 3 months ago : 同步
+9b23a05 - kssamwang, 3 months ago : dgl uk use jupyter
+ 2 files changed, 400 insertions(+), 17 deletions(-)
+
+ebd1ab6 - bear, 3 months ago : 模型更新
+ 3 files changed, 91 insertions(+), 7 deletions(-)
+
+cec9688 - bear, 3 months ago : Merge branch 'master' of https://gitee.com/BearBiscuit05/single-gnn
+2197ee4 - bear, 3 months ago : 合并多数据集运行处理
+ 9 files changed, 391 insertions(+), 274 deletions(-)
+
+d8469fc - bear, 3 months ago : 数据处理脚本添加
+ 2 files changed, 15 insertions(+), 8 deletions(-)
+
+edda21f - bear, 4 months ago : 插入自拟数据
+ 1 file changed, 108 insertions(+), 5 deletions(-)
+
+5a0ec1d - bear, 4 months ago : Merge branch 'master' of https://gitee.com/BearBiscuit05/single-gnn
+0a7b188 - bear, 4 months ago : 分区算法修改
+ 4 files changed, 6 insertions(+), 403 deletions(-)
+
+3b5b73f - kssamwang, 4 months ago : 重构3个数据集的dgl_train
+ 1 file changed, 38 insertions(+), 53 deletions(-)
+
+dfbb46c - bear, 4 months ago : Merge branch 'master' of https://gitee.com/BearBiscuit05/single-gnn
+cd0b806 - bear, 4 months ago : lp运行调整
+ 5 files changed, 221 insertions(+), 8 deletions(-)
+
+7ac0912 - kssamwang, 4 months ago : 添加uk2007/tw/comfr数据集的dgl_train
+ 1 file changed, 165 insertions(+)
+
+1320657 - bear, 4 months ago : 调用dgl自定义函数
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+38bc684 - bear, 4 months ago : 修改采样与映射函数,,加速3x
+ 5 files changed, 139 insertions(+), 530 deletions(-)
+
+e9d7a7d - bear, 4 months ago : Merge branch 'master' of https://gitee.com/BearBiscuit05/single-gnn
+e725c29 - bear, 4 months ago : metis分区同步
+ 3 files changed, 337 insertions(+), 78 deletions(-)
+
+4926c9c - bear, 4 months ago : Merge branch 'master' of https://gitee.com/BearBiscuit05/single-gnn
+4903379 - bear, 4 months ago : papers100M在pyg运行
+ 26 files changed, 224 insertions(+), 2196 deletions(-)
+
+093e1f5 - bear, 4 months ago : 数据生成脚本更新
+ 4 files changed, 135 insertions(+), 26 deletions(-)
+
+a6d7359 - bear, 4 months ago : sketch调整
+ 2 files changed, 13 insertions(+), 9 deletions(-)
+
+10c044b - bear, 4 months ago : 重构
+ 27 files changed, 561 insertions(+), 599 deletions(-)
+
+df4e008 - bear, 4 months ago : V100同步
+ 26 files changed, 2252 insertions(+), 18 deletions(-)
+
+0631644 - bear, 4 months ago : Merge branch 'master' of https://gitee.com/BearBiscuit05/single-gnn
+bc4ea85 - bear, 4 months ago : 修改溢出错误
+ 8 files changed, 69 insertions(+), 19 deletions(-)
+
+4d9026f - bear, 4 months ago : Merge branch 'master' of https://gitee.com/BearBiscuit05/single-gnn
+8e3cb0a - bear, 4 months ago : 测试修改
+ 4 files changed, 25 insertions(+), 25 deletions(-)
+
+bb752c9 - bear, 4 months ago : 添加重排函数构建
+ 4 files changed, 154 insertions(+), 33 deletions(-)
+
+9e49464 - bear, 4 months ago : Merge branch 'master' of https://gitee.com/BearBiscuit05/single-gnn
+ee37af8 - bear, 4 months ago : Merge branch 'test'
+4adb0be - bear, 4 months ago : 添加重排函数
+ 9 files changed, 297 insertions(+), 38 deletions(-)
+
+d0d1c7a - bear, 4 months ago : 完善日志
+ 4 files changed, 85 insertions(+), 60 deletions(-)
+
+aedf832 - bear, 4 months ago : Merge branch 'mutil'
+ae0343d - bear, 4 months ago : Merge branch 'master' of https://gitee.com/BearBiscuit05/single-gnn
+5d1a629 - bear, 4 months ago : 生产者消费者
+ 1 file changed, 24 insertions(+), 16 deletions(-)
+
+1d3a466 - bear, 4 months ago : Merge branch 'master' into mutil
+6e65315 - bear, 4 months ago : 构建多线程
+ 1 file changed, 389 insertions(+)
+
+8df1f75 - bear, 4 months ago : 数据生成
+ 3 files changed, 140 insertions(+), 39 deletions(-)
+
+32d4afc - kssamwang, 4 months ago : 修复负采样
+ 3 files changed, 7 insertions(+), 6 deletions(-)
+
+b634c7f - kssamwang, 4 months ago : Merge branch 'master' of gitee.com:BearBiscuit05/single-gnn
+28ea0dd - kssamwang, 4 months ago : 修改负采样bug
+ 4 files changed, 4 insertions(+), 4 deletions(-)
+
+cc564fb - bear, 4 months ago : omp处理perform
+ 4 files changed, 103 insertions(+), 52 deletions(-)
+
+e9fd5c0 - bear, 4 months ago : 单线程计算
+ 1 file changed, 16 insertions(+), 16 deletions(-)
+
+1082bb2 - bear, 4 months ago : 构建生产者消费者模型加速
+ 3 files changed, 68 insertions(+), 41 deletions(-)
+
+a1d748b - bear, 4 months ago : 缓存中间结果
+ 16 files changed, 288 insertions(+), 279 deletions(-)
+
+8f2d60b - bear, 4 months ago : 测试代码提交
+ 4 files changed, 196 insertions(+), 1 deletion(-)
+
+71730b5 - bear, 4 months ago : 代码重构
+ 60 files changed, 239 insertions(+), 646 deletions(-)
+
+83ae5bd - bear, 4 months ago : Merge branch 'sketch'
+a618c5e - bear, 4 months ago : 数据生成
+ 1 file changed, 36 insertions(+), 6 deletions(-)
+
+aa1dc91 - bear, 4 months ago : 重构数据生成脚本
+ 7 files changed, 122 insertions(+), 139 deletions(-)
+
+6dd9f72 - bear, 4 months ago : 添加cm_sketch
+ 14 files changed, 375 insertions(+), 98 deletions(-)
+
+9fb64f3 - bear, 4 months ago : Merge branch 'master' of https://gitee.com/BearBiscuit05/single-gnn
+e2de3aa - kssamwang, 4 months ago : papers100M数据集加入链路预测
+ 2 files changed, 114 insertions(+), 1 deletion(-)
+
+e6bd6a8 - bear, 4 months ago : 修改指针bug
+ 8 files changed, 308 insertions(+), 76 deletions(-)
+
+bc17555 - bear, 4 months ago : 成功运行
+ 1 file changed, 27 deletions(-)
+
+18a9c45 - bear, 4 months ago : Merge branch 'test'
+f2c58e9 - bear, 4 months ago : 单次博弈
+ 2 files changed, 81 insertions(+)
+
+39d964a - bear, 4 months ago : Revert "Reddit数据集链路预测改造"
+ 1 file changed, 1 insertion(+), 19 deletions(-)
+
+baed945 - bear, 4 months ago : Merge branch 'right'
+dd835a7 - bear, 4 months ago : Merge branch 'master' into right
+caed383 - bear, 4 months ago : 缓存更改
+ 9 files changed, 388 insertions(+), 19 deletions(-)
+
+0aa7a0f - bear, 4 months ago : 修改bool类型至int加速
+ 7 files changed, 77 insertions(+), 64 deletions(-)
+
+523022d - bear, 4 months ago : omp加速cluster部分
+ 5 files changed, 65 insertions(+), 12 deletions(-)
+
+a07a218 - kssamwang, 4 months ago : Reddit数据集链路预测改造
+ 1 file changed, 19 insertions(+), 1 deletion(-)
+
+329ad41 - bear, 4 months ago : 更新同步代码
+ 7 files changed, 12 insertions(+), 10 deletions(-)
+
+1948db8 - bear, 4 months ago : Merge branch 'master' of https://gitee.com/BearBiscuit05/single-gnn
+edf4f37 - bear, 4 months ago : 添加webGraph处理原始数据
+ 9 files changed, 206 insertions(+), 5 deletions(-)
+
+3b92465 - bear, 4 months ago : Merge branch 'master' of https://gitee.com/BearBiscuit05/single-gnn
+f964dda - bear, 4 months ago : fix bug
+ 6 files changed, 257 insertions(+), 1080 deletions(-)
+
+53f24f6 - bear, 4 months ago : 重构数据转换
+ 13 files changed, 140 insertions(+), 485 deletions(-)
+
+f137c49 - bear, 4 months ago : 同步
+ 4 files changed, 677 insertions(+), 28 deletions(-)
+
+05a8e82 - bear, 4 months ago : 线程修改
+ 2 files changed, 24 insertions(+), 24 deletions(-)
+
+cfb62a1 - bear, 4 months ago : fix bug
+ 8 files changed, 482 insertions(+), 26 deletions(-)
+
+507e073 - bear, 4 months ago : 构建多线程omp
+ 2 files changed, 22 insertions(+), 22 deletions(-)
+
+06cc594 - bear, 4 months ago : 重构数据结构
+ 4 files changed, 20 insertions(+), 7 deletions(-)
+
+1fc8ee0 - bear, 4 months ago : 取缔全局变量值
+ 5 files changed, 23 insertions(+), 22 deletions(-)
+
+e58344c - bear, 4 months ago : 可运行版本
+ 6 files changed, 92 insertions(+), 65 deletions(-)
+
+b396ac6 - bear, 4 months ago : 加入omp
+ 9 files changed, 305 insertions(+), 422 deletions(-)
+
+8d181b6 - bear, 4 months ago : Merge branch 'master' of https://gitee.com/BearBiscuit05/single-gnn
+a6b8db8 - kssamwang, 4 months ago : update链路预测
+ 1 file changed, 34 insertions(+), 19 deletions(-)
+
+b22ffab - bear, 4 months ago : 重构建版S5P
+ 10 files changed, 42 insertions(+), 52 deletions(-)
+
+45706e4 - bear, 4 months ago : 重构
+ 29 files changed, 0 insertions(+), 0 deletions(-)
+
+d76d5b4 - kssamwang, 4 months ago : 把products数据集接入链路预测dgl_graphsage模型
+ 2 files changed, 323 insertions(+)
+
+5a4e7da - bear, 4 months ago : S5P加速
+ 10 files changed, 108 insertions(+), 124 deletions(-)
+
+d3e04b6 - bear, 4 months ago : 更新逻辑版本
+ 10 files changed, 63 insertions(+), 245 deletions(-)
+
+eb98f83 - bear, 4 months ago : pyg修改GPU采样
+ 3 files changed, 103 insertions(+), 229 deletions(-)
+
+ed18985 - bear, 4 months ago : 链路预测数据构建
+ 3 files changed, 280 insertions(+), 12 deletions(-)
+
+19e78e5 - bear, 4 months ago : S5P更改
+ 6 files changed, 81 insertions(+), 117 deletions(-)
+
+6f44250 - bear, 4 months ago : 调整可运行状态
+ 14 files changed, 70 insertions(+), 381 deletions(-)
+
+c9ed585 - bear, 4 months ago : 构建运行成功
+ 13 files changed, 39 insertions(+), 289 deletions(-)
+
+6e65490 - bear, 4 months ago : 初版可运行S5P
+ 23 files changed, 2378 insertions(+), 95 deletions(-)
+
+1bc2f43 - bear, 4 months ago : 构建完成
+ 4 files changed, 101 insertions(+), 73 deletions(-)
+
+84bad55 - bear, 4 months ago : 构建完成数据转换
+ 5 files changed, 207 insertions(+), 26 deletions(-)
+
+d69896e - bear, 4 months ago : 修改
+ 3 files changed, 16 insertions(+), 101 deletions(-)
+
+123e31e - bear, 4 months ago : 快速读取框架构建
+ 4 files changed, 263 insertions(+)
+
+d61895c - bear, 4 months ago : 脚本修改
+ 3 files changed, 94 insertions(+), 129 deletions(-)
+
+f93e524 - bear, 4 months ago : Merge branch 'master' of https://gitee.com/BearBiscuit05/single-gnn
+e108e18 - bear, 4 months ago : 构建LP数据生成
+ 4 files changed, 245 insertions(+), 33 deletions(-)
+
+4d3661b - bear, 4 months ago : 内存测试脚本构建
+ 11 files changed, 367 insertions(+), 201 deletions(-)
+
+e5e808d - bear, 4 months ago : V100提交测试
+ 4 files changed, 92 insertions(+), 25 deletions(-)
+
+5ca3883 - bear, 4 months ago : V100测试
+ 3 files changed, 89 insertions(+), 18 deletions(-)
+
+86aba82 - bear, 4 months ago : 修改halo函数
+ 7 files changed, 67 insertions(+), 12 deletions(-)
+
+1f1d153 - bear, 4 months ago : 数据重构并清除冗余文件
+ 13 files changed, 172 insertions(+), 923 deletions(-)
+
+8afbb4c - bear, 4 months ago : sgnn脚本测试完成
+ 4 files changed, 70 insertions(+), 116 deletions(-)
+
+1fb76d2 - bear, 4 months ago : sgnn_dgl调试完毕
+ 3 files changed, 41 insertions(+), 77 deletions(-)
+
+e07c1bb - bear, 4 months ago : 调整参数结构
+ 12 files changed, 268 insertions(+), 445 deletions(-)
+
+df45004 - bear, 4 months ago : Merge branch 'fast'
+6223ef6 - bear, 4 months ago : baseline脚本测试通过
+ 10 files changed, 456 insertions(+), 216 deletions(-)
+
+0b76c37 - bear, 4 months ago : 构建运行和测试脚本
+ 7 files changed, 209 insertions(+), 45 deletions(-)
+
+8efd946 - bear, 4 months ago : 训练便捷构建
+ 6 files changed, 223 insertions(+), 112 deletions(-)
+
+1645b2d - bear, 5 months ago : 结构调整
+ 12 files changed, 557 insertions(+), 933 deletions(-)
+
+5934e64 - bear, 5 months ago : 模拟构建数据生成
+ 5 files changed, 193 insertions(+), 24 deletions(-)
+
+6e750e0 - bear, 5 months ago : 脚本运行前程序修改
+ 10 files changed, 275 insertions(+), 309 deletions(-)
+
+f5f00de - bear, 5 months ago : docker镜像构建
+ 5 files changed, 56 insertions(+), 18 deletions(-)
+
+db93091 - bear, 5 months ago : Merge branch 'master' of https://gitee.com/BearBiscuit05/single-gnn
+440967d - bear, 5 months ago : Merge branch 'fast'
+a90b1a6 - bear, 5 months ago : 数据环境构建
+ 4 files changed, 118 insertions(+), 10 deletions(-)
+
+a9ed578 - kssamwang, 5 months ago : fin gcn baseline
+ 5 files changed, 93 insertions(+), 79 deletions(-)
+
+681fc91 - bear, 5 months ago : 合并修改bug
+ 3 files changed, 82 insertions(+), 1660 deletions(-)
+
+ca07490 - bear, 5 months ago : 修改界限bug
+ 2 files changed, 54 insertions(+), 51 deletions(-)
+
+33ce8cc - bear, 5 months ago : 串行计算成功
+ 9 files changed, 262 insertions(+), 609 deletions(-)
+
+12dc702 - bear, 5 months ago : 构建错误范式
+ 1 file changed, 879 insertions(+)
+
+e4bf039 - bear, 5 months ago : 可正确运行版本
+ 1 file changed, 411 insertions(+), 411 deletions(-)
+
+a00fb0e - bear, 5 months ago : cpu版本数据预取
+ 3 files changed, 891 insertions(+), 8 deletions(-)
+
+39abe80 - bear, 5 months ago : 插入标签
+ 2 files changed, 3 insertions(+), 11 deletions(-)
+
+b3ce7e0 - bear, 5 months ago : Merge branch 'master' of https://gitee.com/BearBiscuit05/single-gnn
+b466536 - bear, 5 months ago : Merge branch 'fast'
+2c09857 - bear, 5 months ago : 优化更改
+ 3 files changed, 386 insertions(+), 178 deletions(-)
+
+5a4653e - gu-beizhi, 5 months ago : update gcn
+ 2 files changed, 44 insertions(+), 24 deletions(-)
+
+4438131 - bear, 5 months ago : 调整分区部分
+ 10 files changed, 132 insertions(+), 81 deletions(-)
+
+81b288a - gu-beizhi, 5 months ago : 更新了baseline的输出便于统计,暂时只做graphsage
+ 5 files changed, 146 insertions(+), 106 deletions(-)
+
+625fff2 - bear, 5 months ago : 计算加速
+ 2 files changed, 28 insertions(+), 44 deletions(-)
+
+da60b88 - bear, 5 months ago : mmap映射成功
+ 2 files changed, 38 insertions(+), 31 deletions(-)
+
+b041454 - bear, 5 months ago : 可正确运行模模式
+ 1 file changed, 2 insertions(+), 105 deletions(-)
+
+6307c6e - bear, 5 months ago : 构造mmap读取方法
+ 3 files changed, 72 insertions(+), 31 deletions(-)
+
+9e4f3a6 - bear, 5 months ago : 结构调整
+ 19 files changed, 166 insertions(+), 1649 deletions(-)
+
+31f53a1 - bear, 5 months ago : 加入第三方库及结构调整
+ 2 files changed, 4 insertions(+)
+
+317c49c - bear, 5 months ago : Merge branch 'memTest'
+bf484f2 - bear, 5 months ago : 二进制数据集构建
+ 2 files changed, 485 insertions(+)
+
+118e847 - bear, 5 months ago : ignore修改
+ 4 files changed, 53 insertions(+), 10 deletions(-)
+
+54428b9 - kssamwang, 5 months ago : upload cmakeLists
+ 1 file changed, 47 insertions(+)
+
+00d4670 - bear, 5 months ago : 缓存
+ 5 files changed, 44 insertions(+), 8 deletions(-)
+
+43d6f85 - bear, 5 months ago : 特征迁移显存中
+ 3 files changed, 11 insertions(+), 27 deletions(-)
+
+c6afb29 - bear, 5 months ago : 训练测试
+ 4 files changed, 231 insertions(+), 35 deletions(-)
+
+69ac51e - bear, 5 months ago : 报错依然产生
+ 2 files changed, 43 insertions(+), 543 deletions(-)
+
+1d9d34b - bear, 5 months ago : 缓存
+ 5 files changed, 1000 insertions(+), 29 deletions(-)
+
+c77e478 - bear, 5 months ago : 数据修改
+ 8 files changed, 216 insertions(+), 508 deletions(-)
+
+997eb56 - bear, 5 months ago : 重构并删除不必要文件
+ 25 files changed, 14 insertions(+), 99214 deletions(-)
+
+cec5294 - bear, 5 months ago : Merge branch 'link_pred'
+737799b - bear, 5 months ago : Merge branch 'bear_algo'
+33020cb - bear, 5 months ago : 预备构建docker
+ 4 files changed, 35 insertions(+), 1 deletion(-)
+
+f4cbbbc - bear, 5 months ago : papers100M测试
+ 5 files changed, 276 insertions(+), 31 deletions(-)
+
+3a2e0f0 - bear, 5 months ago : Merge branch 'master' of https://gitee.com/BearBiscuit05/single-gnn
+039f857 - bear, 5 months ago : bug修改
+ 7 files changed, 114 insertions(+), 47 deletions(-)
+
+ef372f3 - kssamwang, 5 months ago : 修复sgnn/dgl_gat
+ 2 files changed, 32 insertions(+), 2 deletions(-)
+
+292833c - kssamwang, 5 months ago : 修复pyg/gcn
+ 1 file changed, 34 insertions(+), 15 deletions(-)
+
+f8f3c78 - kssamwang, 5 months ago : 调整了一部分测试代码
+ 5 files changed, 39 insertions(+), 31 deletions(-)
+
+b18e32f - bear, 5 months ago : Merge branch 'master' into bear_algo
+84ed2ab - bear, 5 months ago : 暂存
+ 5 files changed, 56 insertions(+), 2687 deletions(-)
+
+95387db - kssamwang, 5 months ago : 修改脚本
+ 4 files changed, 55 insertions(+), 1 deletion(-)
+
+1492891 - kssamwang, 5 months ago : 更新了sgnn的测试运行参数和脚本,gcn测完
+ 11 files changed, 162 insertions(+), 135 deletions(-)
+
+dbcbf18 - bear, 5 months ago : 测试
+ 3 files changed, 2670 insertions(+)
+
+e5ba680 - bear, 5 months ago : 添加无法读取halo的报错
+ 1 file changed, 15 insertions(+), 9 deletions(-)
+
+ec1aa47 - bear, 5 months ago : 设置修改
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+3f9dbb3 - bear, 5 months ago : 链路预测bug修改
+ 3 files changed, 93 insertions(+), 808 deletions(-)
+
+a5fe458 - kssamwang, 5 months ago : graphsage测试脚本实验室A100测完
+ 4 files changed, 5 insertions(+), 2 deletions(-)
+
+6ae3c8e - bear, 5 months ago : 内容更改
+ 4 files changed, 832 insertions(+), 7 deletions(-)
+
+2e629c6 - bear, 5 months ago : 负采样构建
+ 11 files changed, 783 insertions(+), 58 deletions(-)
+
+5371553 - bear, 5 months ago : 修改
+ 7 files changed, 105 insertions(+), 389 deletions(-)
+
+503532c - kssamwang, 5 months ago : baseline测试脚本初版
+ 3 files changed, 117 insertions(+)
+
+3649f30 - bear, 5 months ago : Merge branch 'bear_algo'
+1de6e10 - bear, 5 months ago : 提交
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+be6ca4e - bear, 5 months ago : 对应接口修改以匹配脚本
+ 8 files changed, 340 insertions(+), 107 deletions(-)
+
+aa33b82 - bear, 5 months ago : Merge branch 'master' of https://gitee.com/BearBiscuit05/single-gnn
+6a137b5 - bear, 5 months ago : Merge branch 'bear_algo'
+cc065cc - bear, 5 months ago : reddit运行成功
+ 5 files changed, 92 insertions(+), 25 deletions(-)
+
+f6e4442 - bear, 5 months ago : products数据集测试正常
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+
+0e22290 - bear, 5 months ago : reddit数据训练存在问题
+ 7 files changed, 173 insertions(+), 87 deletions(-)
+
+4a6cc26 - kssamwang, 5 months ago : fennel及其测试,openmp优化完成
+ 4 files changed, 145 insertions(+), 51 deletions(-)
+
+608ee2c - kssamwang, 5 months ago : Merge branch 'master' of gitee.com:BearBiscuit05/single-gnn
+4c31d1c - kssamwang, 5 months ago : fennel及分区结果检测2版
+ 2 files changed, 51 insertions(+), 28 deletions(-)
+
+0081860 - bear, 5 months ago : Merge branch 'master' into bear_algo
+be81c97 - bear, 5 months ago : Merge branch 'master' of https://gitee.com/BearBiscuit05/single-gnn
+d3be920 - bear, 5 months ago : 缓存批处理设置
+ 9 files changed, 376 insertions(+), 222 deletions(-)
+
+462d046 - kssamwang, 5 months ago : fennel及测评初版,放弃改损失函数
+ 3 files changed, 431 insertions(+)
+
+167a1c8 - bear, 5 months ago : Merge branch 'master' of https://gitee.com/BearBiscuit05/single-gnn
+532e238 - bear, 5 months ago : 修改训练输入
+ 11 files changed, 553 insertions(+), 94 deletions(-)
+
+dde60aa - bear, 5 months ago : 内容修改
+ 1 file changed, 16 insertions(+), 9 deletions(-)
+
+15a5e2d - bear, 5 months ago : 运行部分修改
+ 8 files changed, 119 insertions(+), 140 deletions(-)
+
+21b9b4c - bear, 5 months ago : Merge branch 'master' into bear_algo
+9948052 - bear, 5 months ago : pyg内容修改
+ 2 files changed, 63 insertions(+), 13 deletions(-)
+
+fbbb819 - bear, 5 months ago : 数据集构造测试
+ 14 files changed, 168 insertions(+), 156 deletions(-)
+
+888dde7 - bear, 5 months ago : 修改训练输入
+ 9 files changed, 175 insertions(+), 94 deletions(-)
+
+dd6c1ba - bear, 5 months ago : Merge branch 'bear_algo'
+e3b3701 - bear, 5 months ago : 构建日志
+ 3 files changed, 58 insertions(+), 53 deletions(-)
+
+d548749 - bear, 5 months ago : 测试准确率81%
+ 5 files changed, 86 insertions(+), 143 deletions(-)
+
+ba00771 - bear, 5 months ago : Merge branch 'master' of https://gitee.com/BearBiscuit05/single-gnn
+a842070 - bear, 5 months ago : Merge branch 'bear_algo'
+de850fd - bear, 5 months ago : 脚本修改
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+b8855dc - bear, 5 months ago : Merge branch 'mappingCreate' into bear_algo
+60a57f7 - bear, 5 months ago : 重构
+ 1 file changed, 1 deletion(-)
+
+ec3580d - bear, 5 months ago : mapping运行成功
+ 24 files changed, 75 insertions(+), 1404 deletions(-)
+
+f5d5eb3 - bear, 5 months ago : 缓存，存在一些错误
+ 23 files changed, 1354 insertions(+), 23 deletions(-)
+
+1fbd0f8 - bear, 5 months ago : 编译通过
+ 5 files changed, 121 insertions(+), 120 deletions(-)
+
+dfbdeec - kssamwang, 5 months ago : 删除可执行文件
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+7927797 - kssamwang, 5 months ago : 完成布隆过滤器筛选2跳节点和边
+ 8 files changed, 523 insertions(+), 40 deletions(-)
+
+53126f4 - bear, 5 months ago : 代码调整
+ 4 files changed, 43 insertions(+), 20 deletions(-)
+
+084d0a4 - bear, 5 months ago : 完成采样全流程操作
+ 3 files changed, 19 insertions(+), 16 deletions(-)
+
+e9bcf01 - bear, 5 months ago : 存在一些问题的构造实现
+ 3 files changed, 43 insertions(+), 2 deletions(-)
+
+bd65034 - bear, 5 months ago : 完成hash表插入
+ 3 files changed, 44 insertions(+), 40 deletions(-)
+
+700e5a0 - bear, 5 months ago : 二次修改版压缩采样图
+ 4 files changed, 18 insertions(+), 44 deletions(-)
+
+109278c - bear, 5 months ago : 图压缩采样运行成功
+ 14 files changed, 399 insertions(+), 120 deletions(-)
+
+027cc54 - kssamwang, 5 months ago : 布隆过滤器维护点集合查边demo
+ 3 files changed, 125 insertions(+), 105 deletions(-)
+
+57060a6 - bear, 5 months ago : 重构自定义库
+ 14 files changed, 57 insertions(+), 40 deletions(-)
+
+b7f5b34 - bear, 5 months ago : 添加mapping部分
+ 1 file changed, 60 insertions(+)
+
+6fe7cab - bear, 5 months ago : 取消注释
+ 1 file changed, 24 insertions(+), 35 deletions(-)
+
+7ecdc36 - bear, 5 months ago : 实现cuda快速哈希表
+ 7 files changed, 668 insertions(+)
+
+a4ad4de - kssamwang, 5 months ago : update cmake and .gitignore
+ 2 files changed, 270 insertions(+), 1 deletion(-)
+
+ebe08ed - kssamwang, 5 months ago : update bloomfilter and cmake
+ 1 file changed, 455 insertions(+), 32 deletions(-)
+
+66d2102 - kssamwang, 5 months ago : update test
+ 1 file changed, 6 insertions(+), 2 deletions(-)
+
+1ce3762 - kssamwang, 5 months ago : 完成halo测试
+ 2 files changed, 84 insertions(+), 56 deletions(-)
+
+6ab9412 - bear, 5 months ago : 测试
+ 4 files changed, 816 insertions(+), 57 deletions(-)
+
+de6d4f0 - bear, 5 months ago : 缓存
+ 5 files changed, 814 insertions(+), 55 deletions(-)
+
+5449eef - bear, 5 months ago : 缓存
+ 1 file changed, 54 insertions(+), 14 deletions(-)
+
+108923f - bear, 5 months ago : 缓存
+ 4 files changed, 18 insertions(+), 9 deletions(-)
+
+327167d - bear, 5 months ago : 缓存更改
+ 6 files changed, 134 insertions(+), 40 deletions(-)
+
+bf4c182 - kssamwang, 5 months ago : Merge branch 'master' of gitee.com:BearBiscuit05/single-gnn
+14cba90 - kssamwang, 5 months ago : update loadingHalo Test v2 and loadingMemFeat Test v1
+ 2 files changed, 97 insertions(+), 34 deletions(-)
+
+94798a6 - bear, 5 months ago : 函数测试
+ 4 files changed, 836 insertions(+), 1 deletion(-)
+
+24d460f - bear, 5 months ago : Merge branch 'master' of https://gitee.com/BearBiscuit05/single-gnn
+18e1809 - bear, 5 months ago : Merge branch 'bear_algo'
+0cb2da1 - bear, 5 months ago : 添加布隆过滤器
+ 11 files changed, 209 insertions(+), 56 deletions(-)
+
+b001e1f - kssamwang, 5 months ago : loadingHalo Test v1
+ 2 files changed, 820 insertions(+), 7 deletions(-)
+
+307e985 - bear, 5 months ago : Merge commit 'c6b4aa144911c57312463ff26e22f7cc201d2c97' into bear_algo
+c6b4aa1 - bear, 5 months ago : Merge branch 'bugfix'
+956d3f1 - bear, 5 months ago : 硬拷贝调整
+ 1 file changed, 41 insertions(+), 29 deletions(-)
+
+3711136 - bear, 5 months ago : 修改注释
+ 1 file changed, 25 deletions(-)
+
+3e000c8 - bear, 5 months ago : bugfix
+ 2 files changed, 25 insertions(+), 6 deletions(-)
+
+161634b - bear, 5 months ago : Merge commit '74f0d7712d4631b364e05427421d4fc2a5cbd0b8'
+74f0d77 - bear, 5 months ago : cuda数据迁移调整
+ 5 files changed, 39 insertions(+), 92 deletions(-)
+
+84d30a9 - bear, 5 months ago : 修改打印日志
+ 2 files changed, 19 insertions(+), 17 deletions(-)
+
+84f0f7d - bear, 6 months ago : 更新日志
+ 2 files changed, 32 insertions(+), 29 deletions(-)
+
+8ef6874 - bear, 6 months ago : Merge branch 'bear_algo'
+55057cc - bear, 6 months ago : 优化特征采样部分
+ 5 files changed, 146 insertions(+), 115 deletions(-)
+
+f3044a8 - bear, 6 months ago : 修正采样函数,避免重复采样
+ 6 files changed, 209 insertions(+), 171 deletions(-)
+
+7edc85b - kssamwang, 6 months ago : 完成数据转换测试
+ 2 files changed, 173 insertions(+), 12 deletions(-)
+
+ba6c536 - bear, 6 months ago : 调整函数参数位置
+ 4 files changed, 7 insertions(+), 7 deletions(-)
+
+ef5dd8c - kssamwang, 6 months ago : update data2binTest and find errors in valID.bin and testID.bin
+ 2 files changed, 110 insertions(+), 12 deletions(-)
+
+dbf544f - bear, 6 months ago : halo_merge函数在GPU中实现
+ 8 files changed, 166 insertions(+), 34 deletions(-)
+
+36364f9 - bear, 6 months ago : 缓存报错位置
+ 4 files changed, 41 insertions(+), 17 deletions(-)
+
+3038cf8 - bear, 6 months ago : 缓存更改
+ 6 files changed, 102 insertions(+), 28 deletions(-)
+
+aba4746 - bear, 6 months ago : 优化采样函数
+ 12 files changed, 180 insertions(+), 50 deletions(-)
+
+d3a752c - bear, 6 months ago : Merge commit '41968459990b077eeb33d3437c0a50e89004df92'
+4196845 - bear, 6 months ago : Merge commit '1d06df5818e2b94c8d09ad2153de7f9a95946db0' into dev
+1d06df5 - bear, 6 months ago : 暂存
+ 3 files changed, 5 insertions(+), 101 deletions(-)
+
+98f3d5b - bear, 6 months ago : 迁移更改
+ 19 files changed, 2224 insertions(+), 18 deletions(-)
+
+2889b4c - bear, 6 months ago : 更新
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+9cb8752 - bear, 6 months ago : update wsy todo
+ 1 file changed, 10 insertions(+), 2 deletions(-)
+
+8a68a5f - bear, 6 months ago : update loader and train except link-pred and het
+ 9 files changed, 34 insertions(+), 21 deletions(-)
+
+2abc81a - bear, 6 months ago : fix bug in Sample2HopNew
+ 3 files changed, 2 insertions(+), 1 deletion(-)
+
+9bc6503 - bear, 6 months ago : Rollback faetMerge
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+dc6b123 - bear, 6 months ago : fix parallel
+ 4 files changed, 21 insertions(+), 20 deletions(-)
+
+2b659d0 - bear, 6 months ago : rebuild sample2Hop and optimize loader
+ 4 files changed, 181 insertions(+), 45 deletions(-)
+
+2aca0f2 - bear, 6 months ago : stune epoch gnn/dgl_graphsage.py
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+8dc2a3a - bear, 6 months ago : optimize GPU
+ 1 file changed, 20 insertions(+), 19 deletions(-)
+
+ce2af4b - bear, 6 months ago : update pyg/graphsage for 1 GPU
+ 1 file changed, 17 insertions(+), 17 deletions(-)
+
+0798b56 - bear, 6 months ago : update train/dgl,use ogb
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+c573d45 - bear, 6 months ago : update train/sgnn
+ 1 file changed, 27 insertions(+), 15 deletions(-)
+
+d7fad0a - bear, 6 months ago : update train/dgl and train/sgnn
+ 1 file changed, 11 insertions(+), 2 deletions(-)
+
+4facade - bear, 6 months ago : update sample and train
+ 8 files changed, 295 insertions(+), 23 deletions(-)
+
+d410e12 - bear, 6 months ago : Optimized sampling function calls
+ 1 file changed, 24 insertions(+), 24 deletions(-)
+
+ac8e470 - bear, 6 months ago : update loadingHalo
+ 15 files changed, 96364 insertions(+), 66 deletions(-)
+
+e71c4bb - bear, 6 months ago : fix bug of random sampling and test
+ 8 files changed, 257 insertions(+), 109 deletions(-)
+
+56dab5a - bear, 6 months ago : Merge commit 'da437ca170dfa55e8cdd7c60f279d482f7d4de8c' into dev
+da437ca - bear, 6 months ago : 图计算部分交付更新
+ 16 files changed, 165 insertions(+), 1686 deletions(-)
+
+05d5c56 - bear, 6 months ago : Merge commit '9bf01c16ea2ed588a04b6418e10beda6fd32cd06'
+9bf01c1 - bear, 6 months ago : Merge commit '369d787e442945431657914ce5e53d59c9d640b1' into dev
+369d787 - bear, 6 months ago : 合并分支
+ 4 files changed, 74 insertions(+), 12 deletions(-)
+
+72ef921 - bear, 6 months ago : halo部分数据适配GPU
+ 1 file changed, 8 insertions(+)
+
+0b3c830 - bear, 6 months ago : pyg接入数据处理框架
+ 4 files changed, 139 insertions(+), 34 deletions(-)
+
+ca9cdaf - bear, 6 months ago : dgl算法接入框架
+ 7 files changed, 208 insertions(+), 92 deletions(-)
+
+fe2f2e8 - bear, 6 months ago : 增加数据模式选择与修改功能
+ 3 files changed, 129 insertions(+), 49 deletions(-)
+
+5a4afb7 - bear, 7 months ago : 重构
+ 6 files changed, 77 insertions(+), 107 deletions(-)
+
+3c51960 - bear, 7 months ago : 接入pyg框架
+ 3 files changed, 107 insertions(+), 53 deletions(-)
+
+778e038 - bear, 7 months ago : 添加验证集和测试集
+ 7 files changed, 60 insertions(+), 232 deletions(-)
+
+97e96b4 - bear, 7 months ago : dgl修改至内部数据结构
+ 5 files changed, 141 insertions(+), 41 deletions(-)
+
+fb27740 - bear, 7 months ago : dgl数据组织形式更新
+ 14 files changed, 1665 insertions(+), 55 deletions(-)
+
+ff6a95d - bear, 7 months ago : Merge commit '3c0735b829ed33ff94445dfaa1123ad5e6bbec00'
+3c0735b - bear, 7 months ago : Merge commit '8b2ceaacb655fbc1926d3191df4ffabf048a1e3b' into dev
+8b2ceaa - bear, 7 months ago : 接入pyg框架
+ 10 files changed, 375 insertions(+), 14 deletions(-)
+
+4a55e10 - bear, 7 months ago : Merge branch 'dev'
+fac9aff - bear, 7 months ago : Merge branch 'algoRun' into dev
+c844eb8 - bear, 7 months ago : 新数据机构下dgl可运行
+ 2 files changed, 39 insertions(+), 52 deletions(-)
+
+06893e0 - bear, 7 months ago : 数据结构重构
+ 16 files changed, 477 insertions(+), 243 deletions(-)
+
+9dfb552 - bear, 7 months ago : Merge branch 'dev'
+b513aa6 - bear, 7 months ago : Merge branch 'algoRun' into dev
+9c1618b - bear, 7 months ago : 整个流程运行成功
+ 5 files changed, 117 insertions(+), 76 deletions(-)
+
+e630bb4 - bear, 7 months ago : load函数重构及标签转换
+ 2 files changed, 218 insertions(+), 195 deletions(-)
+
+56e1734 - bear, 7 months ago : Merge commit 'e592a7cf4d26f8c16ef396d331a5936fd42d4b73' into dev
+e592a7c - bear, 7 months ago : 新block结构整合
+ 8 files changed, 293 insertions(+), 58 deletions(-)
+
+e84eb62 - bear, 7 months ago : CPU实现多层采样
+ 1 file changed, 81 insertions(+), 36 deletions(-)
+
+7e9c62c - bear, 7 months ago : 构建图数据测试模块
+ 5 files changed, 73 insertions(+), 6 deletions(-)
+
+5fe8d8f - bear, 7 months ago : Merge commit '3c7c3a2e4ea42c729cdd74602ee34730723684e6' into dev
+3c7c3a2 - bear, 7 months ago : 数据加载合并至算法中
+ 4 files changed, 213 insertions(+), 3 deletions(-)
+
+5a23507 - bear, 7 months ago : 合并前整理文件
+ 12 files changed, 221 insertions(+), 114 deletions(-)
+
+e357d22 - bear, 7 months ago : 数据加载更新
+ 2 files changed, 18 insertions(+), 7 deletions(-)
+
+44bbe7e - bear, 7 months ago : Merge commit '7156340782f203fc34ef8ae15e900d3bb8834499'
+7156340 - bear, 7 months ago : 加载正确特征
+ 10 files changed, 497 insertions(+), 62 deletions(-)
+
+c2bb519 - bear, 7 months ago : dgl.block基础测试成功
+ 1 file changed, 21 insertions(+), 2 deletions(-)
+
+056f9ce - bear, 7 months ago : 普通修改
+ 3 files changed, 6 insertions(+), 3 deletions(-)
+
+76189b7 - bear, 7 months ago : COO数据结构测试完成
+ 1 file changed, 18 insertions(+), 26 deletions(-)
+
+60c2e83 - bear, 7 months ago : 构建一个block
+ 1 file changed, 20 insertions(+)
+
+e5ae550 - bear, 7 months ago : [test] 完成初步测试
+ 1 file changed, 8 insertions(+), 10 deletions(-)
+
+7d92c08 - bear, 7 months ago : [feat] 采取mmap后的特征读取
+ 1 file changed, 31 insertions(+), 15 deletions(-)
+
+5d1d931 - bear, 7 months ago : 修改graph0加入时的bug
+ 6 files changed, 52 insertions(+), 54 deletions(-)
+
+c7e81dd - bear, 7 months ago : 预先添加特征提取模块
+ 7 files changed, 183 insertions(+), 70 deletions(-)
+
+2c4f701 - bear, 7 months ago : 初步成功测试长管道运行
+ 1 file changed, 11 insertions(+), 6 deletions(-)
+
+fc54081 - bear, 7 months ago : 单流水循环基础测试成功
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+
+ee840b1 - bear, 7 months ago : __getitem__触发成功
+ 1 file changed, 9 insertions(+), 8 deletions(-)
+
+2d27452 - bear, 7 months ago : 成功运行采样部分的数据循环加载
+ 2 files changed, 39 insertions(+), 28 deletions(-)
+
+195631a - bear, 7 months ago : 更新图循环加载部分
+ 4 files changed, 66 insertions(+), 23 deletions(-)
+
+0f97fc1 - bear, 7 months ago : 预取多个子图
+ 2 files changed, 85 insertions(+), 44 deletions(-)
+
+b72f1a5 - bear, 7 months ago : [test] 随机加载数据成功
+ 4 files changed, 24 insertions(+), 15 deletions(-)
+
+a368ad2 - bear, 8 months ago : 回滚
+ 2 files changed, 45 insertions(+), 21 deletions(-)
+
+80b2ed5 - bear, 8 months ago : [feat] 增加训练轨迹模块
+ 1 file changed, 15 insertions(+), 9 deletions(-)
+
+30aae5c - bear, 8 months ago : [feat] 完成随机训练序列生成部分
+ 2 files changed, 64 insertions(+), 23 deletions(-)
+
+6a1a157 - bear, 8 months ago : init
+ 19 files changed, 1146 insertions(+), 1089 deletions(-)
+
+30125b5 - BearBiscuit, 8 months ago : [feat] 通过json进行任务读取
+ 3 files changed, 44 insertions(+), 78 deletions(-)
+
+e929901 - BearBiscuit, 8 months ago : [fixed] 修改数据转换中节点数目转换出错
+ 3 files changed, 26 insertions(+), 57 deletions(-)
+
+3084430 - BearBiscuit, 8 months ago : [add] 修改dataloader功能为读取边
+ 1 file changed, 57 insertions(+), 20 deletions(-)
+
+1479e64 - BearBiscuit, 8 months ago : [feat] 初步确定dataloader的多线程读取与采样
+ 2 files changed, 42 insertions(+), 28 deletions(-)
+
+b0a0885 - BearBiscuit, 8 months ago : [add] 完善数据预处理部分
+ 5 files changed, 125 insertions(+), 35 deletions(-)
+
+c5c0a27 - BearBiscuit, 8 months ago : [daily] 删除一些不使用函数
+ 3 files changed, 24 insertions(+), 30 deletions(-)
+
+7e3216b - BearBiscuit, 8 months ago : [feat] 添加多线程读取dataloader
+ 2 files changed, 45 insertions(+)
+
+cfb7c2c - BearBiscuit, 8 months ago : [feat] 添加多线程读取dataloader
+ 1 file changed, 3 insertions(+), 22 deletions(-)
+
+1cf3a02 - BearBiscuit, 8 months ago : [feat] 自定义数据集及其基础方法
+ 1 file changed, 45 insertions(+)
+
+1006ec1 - BearBiscuit, 8 months ago : [feat] 采用变量设置
+ 1 file changed, 34 insertions(+), 9 deletions(-)
+
+33779e8 - BearBiscuit, 8 months ago : [feat] 添加参数设置功能
+ 2 files changed, 33 insertions(+), 5 deletions(-)
+
+117a42a - BearBiscuit, 8 months ago : [add] add env path
+ 1 file changed, 17 insertions(+), 23 deletions(-)
+
+bd3e0f4 - BearBiscuit, 8 months ago : [add] run test
+ 1 file changed, 32 insertions(+), 34 deletions(-)
+
+3b3a619 - BearBiscuit, 8 months ago : [fixed] fixed mmap read error
+ 3 files changed, 82 insertions(+), 31 deletions(-)
+
+27565ec - BearBiscuit, 8 months ago : [fixed] fix sample func bug
+ 4 files changed, 5 insertions(+), 5 deletions(-)
+
+9c36f73 - BearBiscuit, 8 months ago : [add] repo init
+ 21 files changed, 2282 insertions(+)
