@@ -14,7 +14,7 @@ PS：由于论文暂未发表，无法完整开源所有内容，但面试中确
 
 ## 项目信息
 
-gnn框架部分master分支情况(bear和BearBiscuit是在两台主机上进行工作,git config username设置不一致导致的):
+gnn框架部分master分支情况(bear和BearBiscuit是在两台主机上进行工作,git config username设置不一致导致的)。另外由于中途操作失误导入过一次32k*3份日志文件进入,因此修改数据有一些异常,可以使用`test.ipynb`来对git提交日志进行检测。
 
 ![e0e8789ac5fb288b94e2e73a2d3b6d8](./pic/gnn_log.png)
 
